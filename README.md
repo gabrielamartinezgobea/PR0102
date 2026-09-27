@@ -59,7 +59,13 @@ luego hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descar
 ### 5.3. Comprobación de la instalación
 Hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descargó y vemos sus permisos. Ahora deberemos hacer sudo chmod +x webmin... para darle permisos de ejecución y que podamos hacer scripts. ![InstalandoWebmin](images/05-webmin-script-permisos.png)
 
+Luego poner en linea de comando sudo apt install webmin para que realmente ejecute el webmin que ya tiene los permisos ![InstalandoWebmin](images/05-webmin-repositorio.png)
+
+
 ## 6. Configuración del firewall
+
+Ahora hemos hecho por comando sudo systemctl status webmin para comprobar que tenemos en Active running  ![InstalandoWebmin](images/06-webmin-status.png) 
+
 
 ### 6.1. Configuración de los puertos necesarios
 
