@@ -97,13 +97,36 @@ Para acceder al Webmin debemos poner el usuario y contraseña con la que accedem
 ### 7.2. Comprobación del funcionamiento
 
 ## 8. Automatización mediante script
-se hizo una carpeta scripts
+Se creó un script Bash llamado install-webmin.sh para automatizar el proceso de instalación y configuración del Webmin.
+
+El script realiza en automático
+
+Actualiza los repositorios y paquetes del sistema.
+Instala las dependencias necesarias.
+Instala y activa SSH.
+Configura el repositorio de Webmin.
+Instala y activa Webmin.
+Configura el firewall UFW.
+Permite el puerto 22/tcp para SSH.
+Permite el puerto 10000/tcp para Webmin.
+Realiza comprobaciones finales de los servicios y del puerto de Webmin.
+
+
 
 ### 8.1. Creación del script
 
+El script se encuentra en la carpeta scripts/ de este repositorio.
+
 ### 8.2. Funcionamiento del script
+El script permite automatizar el proceso de instalación y configuración para poder reproducir la instalación de Webmin sin introducir manualmente todos los comandos.
+
 
 ### 8.3. Ejecución y comprobación
+El script se puede ejecutar desde la carpeta scripts mediante:
+
+sudo ./install-webmin.sh
+
+Al finalizar, se comprueba que SSH y Webmin están activos, que el firewall está configurado y que Webmin está escuchando en el puerto 10000.
 
 ## 9. Estructura del repositorio
 
