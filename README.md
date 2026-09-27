@@ -41,7 +41,7 @@ Se hizo un sudo apt install openss-server y dio como resultado que ya los paquet
 
 ### 4.2. Comprobación del servicio SSH
 así que después de este mensaje se coloca en comando: sudo systemctl status ssh para ver si realmente el servicio SSH está en Active: running 
-![Versión de Ubuntu](images/03-ssh-status)
+![Versión de Ubuntu](images/03-ssh-status.png)
 
 
 ## 5. Instalación de Webmin
