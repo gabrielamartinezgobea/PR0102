@@ -21,11 +21,15 @@ IMPORTANTE: durante la instalación no olvidar activar (x) SSH para que la VM te
 
 ## 3. Instalación y configuración de Ubuntu
 
-*Para comprobar la instalacion del UBUNTU se hizo el comando lsb-release - a. Lo cual dio como resultado que el sistema utilizado en esta práctica es Ubuntu 26.04.1 LTS, versión 26.04, con nombre en clave resolute.![Versión de Ubuntu](images/01-version-ubuntu.png)
 
 ### 3.1. Comprobación del sistema
 
+*Para comprobar la instalacion del UBUNTU se hizo el comando lsb-release - a. Lo cual dio como resultado que el sistema utilizado en esta práctica es Ubuntu 26.04.1 LTS, versión 26.04, con nombre en clave resolute.![Versión de Ubuntu](images/01-version-ubuntu.png)
+
 ### 3.2. Actualización de los repositorios
+
+Para que todos los paquetes esten disponibles se hizo un sudo apt update y para que estén actualizados se hizo un sudo apt upgrade 
+![Versión de Ubuntu](images/03-actualizacion-repositorios.png)
 
 ### 3.3. Actualización del sistema
 
