@@ -129,8 +129,7 @@ sudo ./install-webmin.sh
 Al finalizar, se comprueba que SSH y Webmin están activos, que el firewall está configurado y que Webmin está escuchando en el puerto 10000.
 
 ## 9. Estructura del repositorio
-
-```text
+La estrucutura es la siguiente:
 Practica-0102/
 ├── README.md
 ├── images/
