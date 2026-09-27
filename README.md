@@ -97,6 +97,7 @@ Para acceder al Webmin debemos poner el usuario y contraseña con la que accedem
 ### 7.2. Comprobación del funcionamiento
 
 ## 8. Automatización mediante script
+se hizo una carpeta scripts
 
 ### 8.1. Creación del script
 
