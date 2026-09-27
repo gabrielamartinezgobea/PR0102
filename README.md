@@ -53,11 +53,11 @@ se instala el curl con sudo apt install curl. Si ya lo tienes instalado se hacer
 ### 5.2. Instalación de Webmin
 
 hacemos curl -o webmin-setup-repo.sh https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh por linea de comando para que pueda descargar el webmin.sh en la VM 
-luego hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descargó. [adjuntar 05-descarga-repo]
+luego hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descargó. ![InstalandoWebmin](images/05-descarga-repo.png)
 
 
 ### 5.3. Comprobación de la instalación
-Hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descargó y vemos sus permisos. Ahora deberemos hacer sudo chmod +x webmin... para darle permisos de ejecución y que podamos hacer scripts. [adjuntar 05-webmin-script-permisos.png]
+Hacemos ls -l webmin-setup-repo.sh y si aparece es que realmente se descargó y vemos sus permisos. Ahora deberemos hacer sudo chmod +x webmin... para darle permisos de ejecución y que podamos hacer scripts. ![InstalandoWebmin](images/05-webmin-script-permisos.png)
 
 ## 6. Configuración del firewall
 
