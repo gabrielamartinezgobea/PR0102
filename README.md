@@ -65,15 +65,23 @@ Luego poner en linea de comando sudo apt install webmin para que realmente ejecu
 ## 6. Configuración del firewall
 
 Ahora hemos hecho por comando sudo systemctl status webmin para comprobar que tenemos en Active running  ![InstalandoWebmin](images/06-webmin-status.png) 
-
+.
 
 ### 6.1. Configuración de los puertos necesarios
+para asegurarnos que webmin está escuchando el puerto que generalmente es el 10000 ponemos por linea de comando sudo ss  -tulpn | grep 10000 y tiene que arrojar los resultados como listen 0.0.0.10000.... ![InstalandoWebmin](images/07-puerto-10000.png) 
+
 
 ### 6.2. Comprobación del firewall
 
+Hacemos en linea de comando ip a para ver nuestro ip de la VM: usaremos el de enpOs8 que nos da como inet 192.168.x.x/24... y eso lo colocamos en un navegador por ejemplo Chrome. 
+
 ## 7. Acceso a Webmin
 
+
 ### 7.1. Acceso mediante navegador
+Para acceder al Webmin debemos poner el usuario y contraseña con la que accedemos como root desde la VM  ![InstalandoWebmin](images/07-webmin-acceso.png)
+![InstalandoWebmin](images/08-panel-webmin.png) 
+
 
 ### 7.2. Comprobación del funcionamiento
 
