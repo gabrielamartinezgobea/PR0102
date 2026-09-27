@@ -75,6 +75,17 @@ para asegurarnos que webmin está escuchando el puerto que generalmente es el 10
 
 Hacemos en linea de comando ip a para ver nuestro ip de la VM: usaremos el de enpOs8 que nos da como inet 192.168.x.x/24... y eso lo colocamos en un navegador por ejemplo Chrome. 
 
+Para configurar los PUERTOS hemos hecho por linea de comando:
+sudo ufw status para ver si esta active  salio inactive, por lo cual abriremos los puertos de SSH y de webmin respectivamente 
+sudo ufw allow 22/tcp abre SSH 
+sudo ufw allow 10000/tcp abre webmin
+sudo ufw enable 
+sudo ufw status  dará como resultado todos en ALLOW  
+![InstalandoWebmin](images/09-firewall-status.png)
+
+
+
+
 ## 7. Acceso a Webmin
 
 
