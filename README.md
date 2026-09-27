@@ -10,7 +10,7 @@ El objetivo es instalar y configurar Webmin, comprobar su funcionamiento y docum
 PASO INICIAL:
 CREAR UNA MAQUINA VIRTUAL VM: para esto, descargo Virtual Box Oracle de esta pagina https://www.oracle.com/es/virtualization/technologies/vm/downloads/virtualbox-downloads.html?source=:ow:o:p:nav:mmddyyVirtualBoxHero_es&intcmp=:ow:o:p:nav:mmddyyVirtualBoxHero_es y el ISO de la VM Ubuntu Server 
 Especificaciones importantes: Placa Base: 3072 MB – 2 discos duros / Red: Adaptador 1 NAT. Adaptador 2 Red solo anfitrión
-IMPORTANTE: durante la instalación no olvidar activar (x) SSH para que la VM tenga el servicio SSH 
+IMPORTANTE: durante la instalación no olvidar activar (x) SSH para que la VM tenga el servicio SSH ![Versión de Ubuntu](images/VM creacion.png)
 
 ## 2. Entorno de trabajo
 
@@ -34,10 +34,15 @@ Para que todos los paquetes esten disponibles se hizo un sudo apt update y para 
 ### 3.3. Actualización del sistema
 
 ## 4. Configuración de SSH
+ 
 
 ### 4.1. Instalación de SSH
+Se hizo un sudo apt install openss-server y dio como resultado que ya los paquetes estaban instalados (se debe a que en un inicio al instalar la VM pusimos manualmente (x) que instale el OpenSSH.
 
 ### 4.2. Comprobación del servicio SSH
+así que después de este mensaje se coloca en comando: sudo systemctl status ssh para ver si realmente el servicio SSH está en Active: running 
+![Versión de Ubuntu](images/03-ssh-status)
+
 
 ## 5. Instalación de Webmin
 
